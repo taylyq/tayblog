@@ -1,0 +1,12 @@
+<h3>post index</h3>
+<% @posts.each do |post| %>
+	<div class="post_wrapper">
+		<h2><%= post.title %></h2>
+		<p class="date">
+			<%= post.created_at.strftime("%B, %d, %Y") %>
+		</p>
+		
+		<%= post.body %>
+	</div>
+	
+<% end %>
