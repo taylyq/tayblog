@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+@import 'normalize';
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#sidebar {
+	float:left;
+	width: 180px;
+  	height: 100%;
+  	border-right: solid 1px;
+}
+.login {
+	float:right;
+	width:200px;
+	display:inline-block;
+}
+.panel-body{
+	display: inline-block;
+}
